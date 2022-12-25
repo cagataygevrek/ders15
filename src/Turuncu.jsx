@@ -1,10 +1,10 @@
 import Yesil from "./Yesil";
 
-function Turuncu({ tema }) {
+function Turuncu() {
   return (
     <div>
       <h2>Turuncu component</h2>
-      <Yesil tema={tema} />
+      <Yesil />
     </div>
   );
 }
